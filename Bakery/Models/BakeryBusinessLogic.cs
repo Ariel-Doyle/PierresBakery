@@ -14,7 +14,7 @@ namespace BakeryStoreFront.Models
     }
      public static double DetermineBreadPrice(int numberOfLoaves)
     {
-      return 0.01; 
+      return 0.01 * _priceOfBread * _BreadFormula(numberOfLoaves);
     } 
   }
 }

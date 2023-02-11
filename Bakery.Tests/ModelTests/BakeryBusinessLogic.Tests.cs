@@ -15,7 +15,7 @@ namespace BakeryStoreFront.Tests
     [TestMethod]
     public void DetermineBreadPrice_ReturnPriceOfOneLoaf_Int()
     {
-      int priceOfBread = 500;
+      int priceOfBread = 5;
       Assert.AreEqual(priceOfBread, Bread.DetermineBreadPrice(1));
     }
   }
