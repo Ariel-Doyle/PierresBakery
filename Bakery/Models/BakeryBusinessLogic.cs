@@ -20,6 +20,19 @@ namespace BakeryStoreFront.Models
 
   public class Pastry
   {
-    
+     private static int _priceOfPastry = 200;
+    private static int _discountPastryGroup = 4;
+    private static int _PastryFormula(int numberOfPastries)
+    {
+      int chargePerGroup = _discountPastryGroup - 1;
+      int numberOfGroups = numberOfPastries / _discountPastryGroup;
+      int extraPastries = numberOfPastries % _discountPastryGroup;
+
+      return ((chargePerGroup * numberOfGroups) + extraPastries);
+    }
+    public static double DeterminePastryPrice(int numberOfPastries)
+    {
+      return 0.01;
+    } 
   }
 }
