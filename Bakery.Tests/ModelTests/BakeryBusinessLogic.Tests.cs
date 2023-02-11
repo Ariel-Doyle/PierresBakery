@@ -40,6 +40,12 @@ namespace BakeryStoreFront.Tests
     {
       int priceOfPastry = 2;
       Assert.AreEqual(priceOfPastry, Pastry.DeterminePastryPrice(1));
-    }    
+    }   
+    [TestMethod]
+    public void DeterminePastryPrice_ReturnPriceOfFourPastry_Int()
+    {
+      int priceOfPastry = 6;
+      Assert.AreEqual(priceOfPastry, Pastry.DeterminePastryPrice(4));
+    } 
   }
 }
