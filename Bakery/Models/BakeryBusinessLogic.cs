@@ -32,7 +32,7 @@ namespace BakeryStoreFront.Models
     }
     public static double DeterminePastryPrice(int numberOfPastries)
     {
-      return 0.01;
+      return 0.01 * _priceOfPastry * _PastryFormula(numberOfPastries); 
     } 
   }
 }
