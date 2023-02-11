@@ -18,6 +18,12 @@ namespace BakeryStoreFront.Tests
       int priceOfBread = 5;
       Assert.AreEqual(priceOfBread, Bread.DetermineBreadPrice(1));
     }
+    [TestMethod]
+    public void DetermineBreadPrice_ReturnPriceOfThreeLoaves_Int()
+    {
+      int priceOfBread = 10;
+      Assert.AreEqual(priceOfBread, Bread.DetermineBreadPrice(3));
+    }
   }
 
   // [TestClass]
