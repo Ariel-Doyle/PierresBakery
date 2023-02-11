@@ -17,4 +17,9 @@ namespace BakeryStoreFront.Models
       return 0.01 * _priceOfBread * _BreadFormula(numberOfLoaves);
     } 
   }
+
+  public class Pastry
+  {
+    
+  }
 }

@@ -26,14 +26,15 @@ namespace BakeryStoreFront.Tests
     }
   }
 
-  // [TestClass]
-  // public class PastryTests
-  // {
-  //   [TestMethod]
-  //   public void //display list of selected pastry
-  //   {
-
-  //   }
-  // }
+  [TestClass]
+  public class PastryTests
+  {
+    [TestMethod]
+    public void PastryConstructor_CreateInstanceOfPastry_Pastry()
+    {
+      Pastry newPastry = new Pastry();
+      Assert.AreEqual(typeof(Pastry), newPastry.GetType());
+    }
+  }
 
 }
