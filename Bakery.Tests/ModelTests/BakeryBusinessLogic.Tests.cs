@@ -72,5 +72,20 @@ namespace BakeryStoreFront.Tests
       Cart newCart = new Cart{PastriesPurchased = expectedPastry};
       Assert.AreEqual(expectedPastry, newCart.PastriesPurchased);
     }
+    [TestMethod]
+    public void UpdateValues_ReturnUpdatedValues_Int()
+    {
+      int initialLoaves = 10;
+      int initialPastry = 5;
+      Cart newCart = new Cart{LoavesPurchased = initialLoaves, PastriesPurchased = initialPastry};
+
+      int updateLoaves = 20;
+      int updatePastry = 10;
+      newCart.LoavesPurchased = updateLoaves;
+      newCart.PastriesPurchased = updatePastry;
+
+      Assert.AreEqual(updateLoaves, newCart.LoavesPurchased);
+      Assert.AreEqual(updatePastry, newCart.PastriesPurchased);
+    }
   }
 }
