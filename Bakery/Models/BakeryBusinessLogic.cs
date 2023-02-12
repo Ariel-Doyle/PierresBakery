@@ -2,7 +2,7 @@ namespace BakeryStoreFront.Models
 {
   public class Bread
   {
-   private static int _priceOfBread = 500;
+    private static int _priceOfBread = 500;
     private static int _discountLoafGroup = 3; 
     private static int _BreadFormula(int numberOfLoaves)
     {
@@ -20,7 +20,7 @@ namespace BakeryStoreFront.Models
 
   public class Pastry
   {
-     private static int _priceOfPastry = 200;
+    private static int _priceOfPastry = 200;
     private static int _discountPastryGroup = 4;
     private static int _PastryFormula(int numberOfPastries)
     {

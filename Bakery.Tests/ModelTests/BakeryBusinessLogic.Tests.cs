@@ -48,4 +48,14 @@ namespace BakeryStoreFront.Tests
       Assert.AreEqual(priceOfPastry, Pastry.DeterminePastryPrice(4));
     } 
   }
+
+  [TestClass]
+  public class CartTests
+  {
+    [TestMethod]
+    public void
+    {
+      
+    }
+  }
 }
