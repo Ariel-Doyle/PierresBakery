@@ -22,7 +22,7 @@ _This is a simple console application as practice for writing code in line with 
 - _This application requires the installation of C# and .NET, you can follow along with the instructions in these [lessons](https://www.learnhowtoprogram.com/c-and-net-part-time/getting-started-with-c) to guide you through the installation._
 - _Access [Github](https://github.com/)_
 - _Clone this repository [Pierre's Bakery](https://github.com/Ariel-Doyle/PierresBakery) to your desktop._
-- _After opening this project in the editor of your choice, in your command line type <**dotnet build**>, if there are no errors, you can type <**dotnet run**>; the console application should begin and request user input._
+- _After opening this project in the editor of your choice, while in the root directory type into your command line <**dotnet build**>, if there are no errors, you can navigate to the program folder by typing <**cd Bakery**>, then type <**dotnet run**>; the console application should begin and request user input._
 
 ## Known Bugs
 

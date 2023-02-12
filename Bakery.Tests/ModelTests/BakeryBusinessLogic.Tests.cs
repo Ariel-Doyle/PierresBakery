@@ -53,9 +53,10 @@ namespace BakeryStoreFront.Tests
   public class CartTests
   {
     [TestMethod]
-    public void
+    public void CartConstructor_CreateInstanceOfCart_Cart()
     {
-      
+      Cart newCart = new Cart();
+      Assert.AreEqual(typeof(Cart), newCart.GetType());
     }
   }
 }
