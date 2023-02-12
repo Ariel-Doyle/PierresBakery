@@ -59,11 +59,18 @@ namespace BakeryStoreFront.Tests
       Assert.AreEqual(typeof(Cart), newCart.GetType());
     }
     [TestMethod]
-    public void GetCartValues_ReturnCartValues_Int()
+    public void GetCartLoafValues_ReturnCartLoafValues_Int()
     {
       int expectedLoaves = 10;
       Cart newCart = new Cart{LoavesPurchased = expectedLoaves};
       Assert.AreEqual(expectedLoaves, newCart.LoavesPurchased);      
+    }
+    [TestMethod]
+    public void GetCartPastryValues_ReturnCartPastryValues_Int()
+    {
+      int expectedPastry = 5;
+      Cart newCart = new Cart{PastriesPurchased = expectedPastry};
+      Assert.AreEqual(expectedPastry, newCart.PastriesPurchased);
     }
   }
 }
