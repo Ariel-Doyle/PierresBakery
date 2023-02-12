@@ -25,7 +25,8 @@ _This is a simple console application as practice for writing code in line with 
 
 ## Known Bugs
 
-- _If the user enters an incorrect response, the exception handling automatically closes the program, rather than restarting it._
+- _If the user enters an incorrect response, the exception handling automatically closes the program with a message, rather than restarting it._
+- _Currently, the user cannot add to their cart after the first order, only replace the items in their cart with a new order._
 
 ## License
 
