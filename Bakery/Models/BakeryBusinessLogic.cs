@@ -35,7 +35,7 @@ namespace BakeryStoreFront.Models
       return 0.01 * _priceOfPastry * _PastryFormula(numberOfPastries); 
     } 
   }
-   public class Cart
+  public class Cart
   {
     public int LoavesPurchased { get; set; }
     public int PastriesPurchased { get; set; }
