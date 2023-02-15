@@ -21,7 +21,8 @@ _This is a simple console application as practice for writing code in line with 
 - _This application requires the installation of C# and .NET, you can follow along with the instructions in these [lessons](https://www.learnhowtoprogram.com/c-and-net-part-time/getting-started-with-c) to guide you through the installation._
 - _Access [Github](https://github.com/)_
 - _Clone this repository [Pierre's Bakery](https://github.com/Ariel-Doyle/PierresBakery) to your desktop._
-- _After opening this project in the editor of your choice, while in the root directory navigate to the program folder by typing <**cd Bakery**>, then type <**dotnet run**>; the console application should begin and request user input._
+- _After opening this project in the editor of your choice, while in the root directory navigate to the program folder by typing <**cd Bakery**>, then type <**dotnet build**>, then to use the program type <**dotnet build**>; the console application should begin and request user input._
+-_If you desire to run tests for the program, navigate to the testing folder by typing <**cd Bakery.Tests**>, then type <**dotnet restore**>. After restoring the program testing, you can type <**dotnet test**> and the testing will run._
 
 ## Known Bugs
 
